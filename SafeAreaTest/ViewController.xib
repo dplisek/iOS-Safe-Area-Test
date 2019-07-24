@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="SafeAreaTest" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="459" height="668"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Over" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5V-yD-59Z">
+                    <rect key="frame" x="5" y="5" width="449" height="658"/>
+                    <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="0.24906357020547945" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inside Main and Top" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b61-sT-XTy">
+                    <rect key="frame" x="5" y="5" width="449" height="624"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="0.12743471746575341" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inside Main and Bottom" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7sP-Vk-bQB">
+                    <rect key="frame" x="5" y="49" width="449" height="614"/>
+                    <color key="backgroundColor" red="1" green="0.2527923882" blue="1" alpha="0.2266695205479452" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inside Top" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xkq-1a-6sH">
+                    <rect key="frame" x="5" y="5" width="449" height="60"/>
+                    <color key="backgroundColor" red="1" green="0.15759661620000001" blue="0.2303247236" alpha="0.13990261130136986" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="1" green="0.15759661620000001" blue="0.2303247236" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inside Main" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2NA-2y-S88">
+                    <rect key="frame" x="5" y="49" width="449" height="580"/>
+                    <color key="backgroundColor" red="0.34656922350000002" green="1" blue="0.25245638549999999" alpha="0.18691138698630136" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.34656922350000002" green="1" blue="0.25245638549999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" tag="6" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inside Bottom" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOA-SM-Xno">
+                    <rect key="frame" x="5" y="639" width="449" height="24"/>
+                    <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="0.17417594178082191" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dimensions and center" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JEz-KT-vN9">
+                    <rect key="frame" x="175.5" y="197.5" width="138" height="177"/>
+                    <color key="backgroundColor" red="0.34656922350000002" green="1" blue="0.25245638549999999" alpha="0.18691138700000001" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dimensions and center" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="veD-Jm-qwi">
+                    <rect key="frame" x="105.5" y="295" width="118" height="92"/>
+                    <color key="backgroundColor" red="0.34656922350000002" green="1" blue="0.25245638549999999" alpha="0.18691138700000001" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJd-4L-btT">
+                    <rect key="frame" x="0.0" y="0.0" width="459" height="668"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="2NA-2y-S88" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="5" identifier="at leading of safe area 4" id="0YL-3j-Qn6" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="Xkq-1a-6sH" secondAttribute="bottom" multiplier="0.6" priority="666" constant="5" identifier="just above safe area" id="2ZC-Sb-N0w" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstItem="JEz-KT-vN9" firstAttribute="width" secondItem="fnl-2z-Ty3" secondAttribute="width" multiplier="0.3" identifier="proportional height to safe area" id="2Zb-RB-ELU" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstItem="P5V-yD-59Z" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="5" id="4jw-nu-Mx0"/>
+                <constraint firstItem="veD-Jm-qwi" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" multiplier="0.9" constant="-42" id="7iG-Ue-dzT" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstItem="JEz-KT-vN9" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" multiplier="0.8" constant="15" identifier="center y of safe area (mult)" id="9gc-Nm-pJq" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstItem="uJd-4L-btT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="BHK-ue-dMv"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Xkq-1a-6sH" secondAttribute="trailing" constant="5" identifier="at trailing of safe area 6" id="ESI-c1-JQu" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="b61-sT-XTy" secondAttribute="trailing" constant="5" identifier="at trailing of safe area 2" id="EwG-hv-TIh" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstItem="veD-Jm-qwi" firstAttribute="height" secondItem="fnl-2z-Ty3" secondAttribute="width" multiplier="0.2" id="Ezy-u2-S4n" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstItem="b61-sT-XTy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="5" identifier="at leading of safe area 3" id="Gpr-bE-p0m" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstItem="uJd-4L-btT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="HDd-rm-Rsg"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="2NA-2y-S88" secondAttribute="trailing" constant="5" identifier="at trailing of safe area 3" id="Hge-b7-kna" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstItem="LOA-SM-Xno" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="bottom" priority="666" constant="5" identifier="just below safe area" id="IAa-gm-gGb" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstAttribute="bottom" secondItem="P5V-yD-59Z" secondAttribute="bottom" constant="5" id="LKl-7F-Zne"/>
+                <constraint firstItem="7sP-Vk-bQB" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="5" identifier="at top of safe area 2" id="MZA-kQ-z9V" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="b61-sT-XTy" secondAttribute="bottom" constant="5" identifier="at bottom of safe area 2" id="N9q-Bi-s8O" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="7sP-Vk-bQB" secondAttribute="trailing" constant="5" identifier="at trailing of safe area 4" id="Oh5-hd-5Qn" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstAttribute="trailing" secondItem="uJd-4L-btT" secondAttribute="trailing" id="RMZ-ub-jp5"/>
+                <constraint firstItem="P5V-yD-59Z" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="5" identifier="at leading of safe area 2" id="Uut-t9-wfI" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstItem="2NA-2y-S88" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="5" identifier="at top of safe area" id="VYb-kC-44t" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="centerY" secondItem="veD-Jm-qwi" secondAttribute="centerY" multiplier="0.95" constant="15" id="VuQ-E6-o4c" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstItem="Xkq-1a-6sH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="5" identifier="at leading of safe area 6" id="ZzR-84-fcx" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstAttribute="bottom" secondItem="uJd-4L-btT" secondAttribute="bottom" id="aPO-Dr-X2c"/>
+                <constraint firstItem="JEz-KT-vN9" firstAttribute="height" secondItem="fnl-2z-Ty3" secondAttribute="height" multiplier="0.3" identifier="proportional width to safe area" id="dm7-cz-OCu" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="LOA-SM-Xno" secondAttribute="trailing" constant="5" identifier="at trailing of safe area" id="f4h-Ye-6yt" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="P5V-yD-59Z" secondAttribute="trailing" constant="5" identifier="at trailing of safe area 5" id="gId-h6-1r7" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstItem="LOA-SM-Xno" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="5" identifier="at leading of safe area" id="m3i-YF-o2N" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstAttribute="bottom" secondItem="7sP-Vk-bQB" secondAttribute="bottom" constant="5" id="mQm-9N-LWI"/>
+                <constraint firstItem="7sP-Vk-bQB" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="5" identifier="at leading of safe area 5" id="n1o-tx-TZ2" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="2NA-2y-S88" secondAttribute="bottom" constant="5" identifier="at bottom of safe area" id="nbB-OK-6Bf" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstAttribute="bottom" secondItem="LOA-SM-Xno" secondAttribute="bottom" constant="5" id="pVO-FM-SHB"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="height" secondItem="veD-Jm-qwi" secondAttribute="width" multiplier="5" id="pc2-hP-SDh" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+                <constraint firstItem="b61-sT-XTy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="5" id="taT-rl-BAs"/>
+                <constraint firstItem="Xkq-1a-6sH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="5" id="v2J-wE-Adc"/>
+                <constraint firstItem="JEz-KT-vN9" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" constant="15" identifier="center x of safe area" id="y29-qv-icP" customClass="SafeAreaSafeConstraint" customModule="SafeAreaTest" customModuleProvider="target"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="552.89855072463774" y="-86.383928571428569"/>
+        </view>
+    </objects>
+</document>

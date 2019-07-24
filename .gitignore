@@ -1,0 +1,38 @@
+## GitIgnore File
+## ZENTITY, a.s.
+## version: 1.0
+## MacOS
+.DS_Store
+## Build generated
+build/
+DerivedData/
+ 
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+!default.xcworkspace
+xcuserdata/
+profile/
+ 
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+ 
+ 
+## Cocoa Pods
+Pods/
+ 
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+# AppCode
+.idea/
