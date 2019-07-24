@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="SafeAreaTest" customModuleProvider="target">
             <connections>
+                <outlet property="constraint" destination="2ZC-Sb-N0w" id="p1L-h2-NAA"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

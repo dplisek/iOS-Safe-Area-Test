@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var constraints: [NSLayoutConstraint]!
+    @IBOutlet weak var constraint: SafeAreaSafeConstraint!
     
     override var prefersStatusBarHidden: Bool {
         return true
+    }
+    
+    override func updateViewConstraints() {
+        super.updateViewConstraints()
+        print("Constraints updated, add a breapoint here to check them out!")
     }
 }
